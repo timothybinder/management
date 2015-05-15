@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>National Vendor Management Department</title>
+    <link rel="icon" type="image/png" href="_assets/favicon.png">
+    <link rel="stylesheet" href="_css/styles.css" type="text/css" charset="utf-8">  
+  </head>
+  <body>
+    <div class="container">
+    <?php include ('header.php'); ?>
+      <h2 id="news">Upcoming events and news</h2>
+      <div id="iframe">
+        <iframe src="https://www.google.com/calendar/embed?src=i3kvgo5jk2eqovk8l4dg7g6554%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'nvmdnv';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </div>
+  </body>
+</html>
