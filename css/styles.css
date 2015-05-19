@@ -180,7 +180,11 @@
     nav ul a,
     nav ul a:hover,
     nav ul a:active {
+<<<<<<< HEAD
         font-size: 25px;
+=======
+        font-size: 40px;
+>>>>>>> eed71c043c7995cf93cb54203584408067f4c5ce
         text-decoration: none;
         color: white;
     }
